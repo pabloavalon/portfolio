@@ -34,13 +34,13 @@ Desde themes y funcionalidades custom hasta integración con CRMs, procesamiento
         </p>
 
         <div className="flex flex-wrap gap-3 justify-center">
-          <a href="mailto:tu@email.com"
+          <a href="mailto:pablo.pereira1897@gmail.com"
           className="inline-flex items-center gap-2 bg-foreground text-background font-medium px-6 py-3 rounded-full text-sm hover:bg-foreground/90 transition-colors">
             
             Contáctame
             <span className="text-xs">→</span>
           </a>
-          <a
+          <a href="https://www.linkedin.com/in/pablo-pereira-061709225/"
 
             target="_blank"
             rel="noopener noreferrer"
@@ -48,8 +48,7 @@ Desde themes y funcionalidades custom hasta integración con CRMs, procesamiento
             
             LinkedIn
           </a>
-          <a
-            href="#"
+          <a href="../cv-pablopereira.pdf"
             className="inline-flex items-center gap-2 border border-border text-foreground font-medium px-6 py-3 rounded-full text-sm transition-colors bg-primary-foreground">
             
             CV
