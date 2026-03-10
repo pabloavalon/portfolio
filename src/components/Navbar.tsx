@@ -23,7 +23,7 @@ const Navbar = () => {
             Herramientas
           </a>
           <a
-            href="mailto:tu@email.com"
+            href="mailto:pablo.pereira1897@gmail.com"
             className="inline-flex items-center gap-1.5 bg-foreground text-background text-[13px] font-medium px-4 py-2 rounded-md hover:bg-foreground/90 transition-colors"
           >
             Contacto
