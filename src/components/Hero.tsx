@@ -48,7 +48,7 @@ Desde themes y funcionalidades custom hasta integración con CRMs, procesamiento
             
             LinkedIn
           </a>
-          <a href="https://pablopereira.netlify.app//cv-pablopereira.pdf"
+          <a href="https://pablopereiradev.netlify.app/cv-pablo-pereira.pdf"
             className="inline-flex items-center gap-2 border border-border text-foreground font-medium px-6 py-3 rounded-full text-sm transition-colors bg-primary-foreground">
             
             CV
