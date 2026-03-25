@@ -17,7 +17,7 @@ const Index = () => {
         <div className="section-divider max-w-5xl mx-auto" />
         <Tools />
         <footer className="py-16 text-center border-t border-border">
-          <p className="text-xs text-muted-foreground font-mono">© 2025 — Pablo Pereira</p>
+          <p className="text-xs text-muted-foreground font-mono">© 2026 — Pablo Pereira</p>
         </footer>
       </main>
     </div>
