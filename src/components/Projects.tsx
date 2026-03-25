@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import tucuman-solidario from "@/assets/tucuman-solidario.png";
 import cuotiflex from "@/assets/project-cuotiflex.png";
 import terravera from "@/assets/project-terravera.png";
 import udl from "@/assets/project-udl.png";
@@ -16,6 +17,7 @@ import corven from "@/assets/project-corven.png";
 import vitalcer from "@/assets/project-vitalcer.png";
 
 const projects = [
+  { img: cuotiflex, title: "Tucumán solidario", desc: "Landing con CRM integrado para organizar la información de las donaciones.", tags: ["React js", "Taildwind", "Supabase"], url: "https://tucuman-solidario.vercel.app/" },
   { img: cuotiflex, title: "Cuotiflex", desc: "Landing page para compras en cuotas, transmitiendo confianza y simplicidad.", tags: ["WordPress", "Divi", "CSS"], url: "https://cuotiflex.com/" },
   { img: terravera, title: "Terravera Ecommerce", desc: "Ecommerce de carnes de alta calidad con tienda online funcional y atractiva.", tags: ["WordPress", "Divi", "WooCommerce", "CSS"], url: "https://terravera-seleccion.com/" },
   { img: udl, title: "Centro Logístico", desc: "Landing page para empresa de logística con entregas a domicilio.", tags: ["WordPress", "Divi"], url: "https://udl-logistics.com/" },
@@ -43,7 +45,7 @@ const Projects = () => {
         transition={{ duration: 0.5 }}
         className="text-3xl font-bold tracking-tight gradient-text mb-4"
       >
-        Proyectos
+        Proyectos destacados
       </motion.h2>
       <p className="text-muted-foreground text-sm mb-14">Una selección de trabajos recientes.</p>
 
