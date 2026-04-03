@@ -19,6 +19,10 @@ const tools = [
   { name: "Slack", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" },
   { name: "Chrome", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" },
   { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
+  { name: "Claude Code", icon: "https://cdn.jsdelivr.net/npm/simple-icons@16.14.0/icons/claude.svg" },
+  { name: "Antigravity", icon: "https://unpkg.com/@lobehub/icons-static-svg@1.84.0/icons/antigravity.svg" },
+  { name: "Chat GPT", icon: "https://unpkg.com/@lobehub/icons-static-svg@1.84.0/icons/openai.svg" },
+  
 ];
 
 const Tools = () => {
