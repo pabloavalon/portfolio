@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import berecruiting from "@/assets/project-be-recruiting.png";
+import hueveria from "@/assets/project-hueveria.png";
 import tucuman from "@/assets/tucuman.png";
 import cuotiflex from "@/assets/project-cuotiflex.png";
 import terravera from "@/assets/project-terravera.png";
@@ -15,10 +17,11 @@ import avalon from "@/assets/project-avalon.png";
 import bioben from "@/assets/project-bioben.png";
 import corven from "@/assets/project-corven.png";
 import vitalcer from "@/assets/project-vitalcer.png";
-import berecruiting from "@/assets/project-be-recruiting.png";
-import hueveria from "@/assets/project-hueveria.png";
+
 
 const projects = [
+  { img: berecruiting, title: "Be Recruiting", desc: "Landing de reclutamiento y selección de personal.", tags: ["WordPress", "CSS"], url: "https://berecruiting.com/" },
+  { img: hueveria, title: "Huevería Mayorista", desc: "CRM para controlar el stock, ventas y envíos de insumos avícolas.", tags: ["React js", "Supabase"], url: "https://jya-hermanitos.vercel.app/" },
   { img: tucuman, title: "Tucumán solidario", desc: "Landing con CRM integrado para organizar la información de las donaciones.", tags: ["React js", "Taildwind", "Supabase"], url: "https://tucuman-solidario.vercel.app/" },
   { img: cuotiflex, title: "Cuotiflex", desc: "Landing page para compras en cuotas, transmitiendo confianza y simplicidad.", tags: ["WordPress", "Divi", "CSS"], url: "https://cuotiflex.com/" },
   { img: terravera, title: "Terravera Ecommerce", desc: "Ecommerce de carnes de alta calidad con tienda online funcional y atractiva.", tags: ["WordPress", "Divi", "WooCommerce", "CSS"], url: "https://terravera-seleccion.com/" },
@@ -35,8 +38,7 @@ const projects = [
   { img: bioben, title: "BIOBEN", desc: "Catálogo de productos con integración de chat WhatsApp para ventas.", tags: ["WordPress", "Elementor", "CSS"], url: "https://bioben.com.ar/" },
   { img: corven, title: "Corven Motos", desc: "Sitio oficial con presentación dinámica y selección de colores en tiempo real.", tags: ["WordPress", "Divi", "JS", "CSS"], url: "https://corvenmotos.com.ar/" },
   { img: vitalcer, title: "Vitalcer", desc: "Landing funcional con productos, sucursales y formularios de contacto.", tags: ["HTML", "CSS", "Elementor"], url: "https://vitalcer.com/" },
-  { img: berecruiting, title: "Be Recruiting", desc: "Landing de reclutamiento y selección de personal.", tags: ["WordPress", "CSS"], url: "https://berecruiting.com/" },
-  { img: hueveria, title: "Huevería Mayorista", desc: "CRM para controlar el stock, ventas y envíos de insumos avícolas.", tags: ["React js", "Supabase"], url: "https://jya-hermanitos.vercel.app/" },
+  
 ];
 
 const Projects = () => {
